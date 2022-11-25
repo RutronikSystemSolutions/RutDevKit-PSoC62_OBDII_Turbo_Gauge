@@ -1,16 +1,21 @@
-# RutDevKit-PSoC62 OBD-II 4D Systems Display Demo
+# RutDevKit-PSoC62 OBD-II Turbine Pressure Gauge Demo
 
-Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 "RutDevKit-PSoC62_OBDII_Display_App" Demo Application. 
+Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 "RutDevKit-PSoC62_OBDII_Turbo_Gauge" Demo Application. 
 
 This example is a practical implementation using 4D Systems "GEN4-FT812-43T" display for representing the vehicle's parameters gathered over the OBD cable using OBD-II protocol.  The OBD cable and SPI adapter is needed for this application to run. 
 
  <img src="images/rutdevkit_model.png" style="zoom:20%;" />
 
+## Requirements
+
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) v2.4
+
 ### Using the code example with a ModusToolbox IDE:
 
 1. Import the project: **File** > **Import...** > **General** > **Existing Projects into Workspace** > **Next**.
-2. Select the directory where **"RutDevKit-PSoC62_OBDII_Display_App"** resides and click  **Finish**.
-3. Select and build the project **Project ** > **Build Project**.
+2. Select the directory where **"RutDevKit-PSoC62_OBDII_Turbo_Gauge"** resides and click  **Finish**.
+3. Update the libraries using a **"Library Manager"** tool.
+4. Select and build the project **Project ** > **Build Project**.
 
 ### Operation
 

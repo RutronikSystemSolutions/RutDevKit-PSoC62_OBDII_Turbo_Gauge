@@ -1,11 +1,16 @@
 /******************************************************************************
 * File Name:   main.c
 *
-* Description: This is the source code for the Empty PSoC6 Application
-*              for ModusToolbox.
+* Description: This is the source code for the RutDevKit-PSoC62_OBDII_Turbo_Gauge
+*              Application for ModusToolbox.
 *
 * Related Document: See README.md
 *
+*
+*  Created on: 2021-05-27
+*  Company: Rutronik Elektronische Bauelemente GmbH
+*  Address: Jonavos g. 30, Kaunas 44262, Lithuania
+*  Author: GDR
 *
 *******************************************************************************
 * (c) 2019-2021, Cypress Semiconductor Corporation. All rights reserved.
@@ -37,6 +42,13 @@
 * including Cypress's product in a High Risk Product, the manufacturer of such
 * system or application assumes all risk of such use and in doing so agrees to
 * indemnify Cypress against all liability.
+*
+* Rutronik Elektronische Bauelemente GmbH Disclaimer: The evaluation board
+* including the software is for testing purposes only and,
+* because it has limited functions and limited resilience, is not suitable
+* for permanent use under real conditions. If the evaluation board is
+* nevertheless used under real conditions, this is done at one’s responsibility;
+* any liability of Rutronik is insofar excluded
 *******************************************************************************/
 
 #include "cy_pdl.h"
